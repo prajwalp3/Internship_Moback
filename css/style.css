@@ -1,0 +1,483 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif; */
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    /* background-color:white; */
+}
+
+:root{
+  --headings:'Montserrat', sans-serif;
+}
+body{
+    font-family: 'raleway',sans-serif;
+    /* background: #fff ; */
+}
+
+navbar{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0.5rem 2rem;
+  height: 3rem;
+}
+
+.nav_container1, .nav_container2{
+  display: flex;
+  align-items: center;
+}
+
+.nav_container1{
+  display: flex;
+  gap: 1rem;
+}
+
+.nav_container1 li{
+ list-style: none;
+}
+
+.nav_container2 {
+ display: flex;
+ gap: 1rem;
+}
+
+
+.nav_container2 li{
+  list-style: none;
+}
+
+.login{
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.4rem 1rem;
+  font-weight: bold;
+}
+
+.login:hover{
+  background-color: rgb(186, 186, 186);
+}
+.secondary__content li{
+  
+  list-style: none;
+}
+ a{
+  text-decoration: none;
+}
+.secondary__content{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-size:0.75rem ;
+  color:black;
+
+}
+.secondary__content a{
+  color:black;
+  font-weight: bold;
+}
+.secondary__content a:hover{
+  text-decoration: underline;
+}
+.main__content{
+  display: flex;
+  justify-content:space-between;
+  padding-left: 0.75rem;
+  padding-top:0.75rem;
+  padding-right:0.75rem;
+}
+
+
+.first__column{
+  flex: 50;
+
+}
+
+.second__column, .third__column{
+  flex: 25;
+}
+.third__column li{
+  list-style: none;
+}
+
+.first__column{
+
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap:1.5rem;
+}
+.second__column{
+
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap:1.5rem;
+}
+.third__column{
+
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap:1.5rem;
+}
+.footer__CNN{
+  display:flex;
+  justify-content: space-around;
+  
+  
+}
+.footer__CNN li{
+  list-style: none;
+}
+  
+.footer__first{
+display:flex;
+flex-direction: column;
+justify-content: flex-start;
+  row-gap:0.20rem;
+}
+.footer__second{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap:0.20rem;
+}
+.footer__third{
+  display:flex;
+flex-direction: column;
+justify-content: flex-start;
+  row-gap:0.20rem;
+
+}
+.footer__four{
+  display:flex;
+flex-direction: column;
+justify-content: flex-start;
+  row-gap:0.20rem;
+
+}
+.footer__five{
+  display:flex;
+flex-direction: column;
+justify-content: flex-start;
+  row-gap:0.20rem;
+
+}
+.footer__six{
+  display:flex;
+flex-direction: column;
+justify-content: flex-start;
+  row-gap:0.20rem;
+
+}
+.footer__seven{
+  display:flex;
+flex-direction: column;
+justify-content: flex-start;
+  row-gap:0.20rem;
+
+}
+.footer__CNN{
+  background-color: black;
+  color:white;
+ 
+}
+
+/* search */
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  color:white;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:black;
+  color:white;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color:black;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+.footer__CNN{
+  padding-top:2rem;
+  padding-left:1.5rem ;
+  padding-right:1.5rem;
+  padding-bottom: 2rem;
+}
+
+ .us{
+  color:white;
+} 
+.follow_cnn{
+  color:white;
+  font-size:1rem;
+} 
+.footer__basement{
+  background-color:black;
+  padding:2rem;
+} 
+.footer__basement2 li{
+  list-style: none;
+
+}
+.footer__basement{
+  display:flex;
+  justify-content: space-between;
+}
+.footer__basement1{
+  display:flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+.footer__basement2{
+  display:flex;
+  align-items: center;
+  column-gap: 1rem;}
+  
+.footer__basement2 i{
+  color:white;
+  font-size: 2rem;
+}
+.footer__final li{
+  list-style: none;
+}
+.footer__final{
+  font-size:0.75rem;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  column-gap: 1rem;
+  padding:1.5rem;
+  color:white;
+  background-color: black;
+}
+.cnn__base{
+  color:white;
+  background-color: black;
+  font-size:0.75rem ;
+  align-items: center;
+  display:flex;
+  justify-content: center;
+  padding:2rem;
+  padding-bottom: 0.5rem;
+
+ 
+}
+.cnn__base1
+{color:white;
+  background-color: black;
+  font-size:0.75rem ;
+  
+  display:flex;
+  justify-content: center;
+padding-bottom: 2rem;
+}
+.first__column a:hover{
+  text-decoration: underline;
+}
+.second__column a:hover{
+  text-decoration: underline;
+}
+.third__column a:hover{
+  text-decoration: underline;
+}
+.first__column li{
+  color:black;
+}
+.second__column li{
+  color:black;
+}
+.third__column li{
+  color:black;
+}
+.footer__CNN{
+
+}
+.footer__CNN li{
+ font-size:0.85rem;
+}
+.CNN__page2{
+  display:flex;
+}
+.page2__sub{
+  display:flex;
+  column-gap: 1rem;
+}
+.final__flex{
+  display:flex;
+}
+.page2__column3{
+  display:flex;
+  flex-direction:column;
+  row-gap: 1rem;
+}
+.page2__column2{
+  display:flex;
+  flex-direction:column;
+  row-gap: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+.page2__column1{
+  display:flex;
+  flex-direction:column;
+  row-gap: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.page2__column1 h2{
+  color: black;
+}
+ h2:hover{
+  text-decoration: underline;
+  
+}
+.page2__column1 li{
+  text-decoration: none;
+  font
+  
+}
+.page2__column1 li:hover{
+  text-decoration: underline;
+}
+.page2__column3{
+padding-right: 1rem;
+padding-left: 1rem;
+}
+.page2__sub{
+  display:flex;
+  flex-direction: row;
+}
+.column2__img{
+  display:flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.column2__text{
+  display:flex;
+  flex-direction: column;
+  row-gap: 5.5rem;
+}
+.final__flex{
+display: flex;
+column-gap: 1rem;
+}
+.page2__sub{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.yyy{
+  display: flex;
+  column-gap: 1.5rem;
+}
+.xxyy{
+  display :flex;
+  flex-direction: column;
+  row-gap: 6.25rem;
+
+}
+.page2__column3{
+  display:flex;
+  flex-direction: column;
+  row-gap: 1.56rem;
+}
+.page2__sub11{
+  display:flex;
+  flex-direction:row;
+column-gap:1.5rem ;
+}
+.flexbox{
+  display:flex;
+  flex-direction:column;
+row-gap:1rem 
+}
+.flexbox1{
+  display:flex;
+  flex-direction:column;
+row-gap:4.5rem 
+}
+.flexbox1 li{
+  text-decoration: none;
+  font-size: 0.75rem;
+  list-style: none;
+  font-weight:700;
+
+}
+
+
+.flexbox1 li:hover{
+  text-decoration: underline;
+}
+.CNN__page2{
+  padding-bottom: 2rem;
+}
+.responsive h1,h2,h3,h4,h5,h6,li{
+  font-size:100%;
+
+}
+<style>
+.third__column,.second__column {
+  float: left;
+  width: 25%; /* The width is 20%, by default */
+}
+
+.first__column {
+  float: left;
+  width: 50%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .third__column, .first__column, .second__column {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
