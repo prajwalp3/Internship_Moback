@@ -1,0 +1,213 @@
+:root{
+    --bg-dark:#282C34;
+    
+}
+
+
+  @media screen and (max-width:800px){
+ .main__content{
+     flex-direction:column;
+     justify-content:space-between;
+    padding: 1rem;
+   } 
+     
+   .CNN__page2{
+   
+     display:flex;
+     flex-direction:column;
+     justify-content:space-between;
+     padding-left: 0.75rem;
+     padding-top:0.75rem;
+     padding-right:0.75rem;
+   }
+   .main__content img{ height:5rem;
+    }
+   .CNN__page2  img{ height:5rem;
+   }
+   .footer__CNN{
+     display:flex;
+     flex-direction: column;
+     align-items: left;
+     row-gap: 1rem;
+   }
+   
+   .nav__wrappper {
+   flex-direction: column;
+   padding-bottom: 8rem;
+   align-content:space-between ;
+   width: 44rem;
+   margin:0rem auto;
+   
+   
+   }
+   .nav_container1{
+     justify-content: space-evenly;
+     width: 40rem;
+     padding-top: 0.5rem;
+   }
+   .media__navbar{
+     justify-content: space-evenly;
+     width: 40rem;
+     padding-top: 0.5rem;
+   }
+   .nav_container2{
+     justify-content:right;
+     width: 40rem;
+     padding-top: 0.5rem;
+   }
+   .secondary__content{
+   width:41rem;
+   padding-left: 2rem;
+   }
+   .main__content{
+     width:42rem;
+    
+   
+   }
+   .first__column{
+     width:42rem;
+   }
+   .second__column{
+     width:42rem;
+   }
+   
+   .third__column{
+     width:42rem;
+   }
+   
+   .CNN__page2{
+     width:42rem; 
+   }
+   .hackers__img{
+     width: 20rem;
+   }
+   .topnav{
+     width:44rem;
+   }
+   
+   .page2__column3{
+    width:100%;
+   justify-content: space-around;
+   olumn-gap: 10rem;
+   padding-top: 2rem;
+   }
+   .page2__column3 li{
+     width: 30rem;
+   }
+   .flexbox1{
+     column-gap: 3rem;
+   }
+   .footer__CNN{
+     width: 44rem;
+   padding-left: 75%;
+   }
+   .footer__basement{
+     width:44rem;
+   }
+   .footer__final{
+     width:44rem;
+   }
+   .cnn__base{
+     width:44rem;
+   }
+   .cnn__base1{
+     width:44rem;
+   }
+   } 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+   * @media screen and (min-width:1300px) {
+
+     
+    
+   .CNN__page2{
+     width:75%;
+    padding-left:20%;
+    padding-right:20%;
+     
+   }
+   
+   .footer__CNN{
+      width:75%
+    padding-left:20%;
+    padding-right:20%;
+      
+   }
+   
+   .nav__wrappper {
+     
+     width:75%;
+     padding-left:20%;
+    padding-right:20%;
+   }
+  
+  
+   .nav_container2{
+     width:75%;
+     
+   }
+   .secondary__content{
+     width:75%;
+     padding-left:20%;
+     padding-right:20%;
+    
+     
+   }
+   
+   
+   
+   
+   
+  
+   .topnav{
+    width:75%;
+    padding-left:20%;
+    padding-right:20%;
+   }
+   
+   
+   
+   .flexbox1{
+    width:75%;
+    
+   
+   }
+   .footer__CNN{
+    width:75%;
+    padding-left:20%;
+    padding-right:20%;
+   }
+   .footer__basement{
+    width:75%;
+    padding-left:20%;
+    padding-right:20%;
+   }
+   .footer__final{
+    width:75%;
+    padding-left:20%;
+    padding-right:20%;
+   }
+   .cnn__base{
+    width:75%;
+    
+   }
+   .cnn__base1{
+    width:75%;
+ 
+ 
+ 
+ }  
+}
